@@ -37,7 +37,7 @@
   width: 100%;
 }
 /*TABLET*/
-@media only screen and (max-width: 969px) and (min-width: 720px) {
+/* @media only screen and (max-width: 969px) and (min-width: 720px) {
   .grid-dimension {
     padding: 40px 10% 120px;
   }
@@ -46,7 +46,7 @@
   }
 }
 /*MOB*/
-@media only screen and (max-width: 719px) {
+/* @media only screen and (max-width: 719px) {
 
   .grid-dimension {
     padding: 40px 2% 120px;
@@ -67,4 +67,4 @@
   .description-card p {
     font-size: 12.5px;
   }
-}
+} */ */

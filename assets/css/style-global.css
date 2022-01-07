@@ -252,7 +252,7 @@
  }
 }
 /*TABLET*/
-@media only screen and (max-width: 969px) and (min-width: 720px) {
+/* @media only screen and (max-width: 969px) and (min-width: 720px) {
   .menu-desk {
     display: none;
   }
@@ -371,4 +371,4 @@
     bottom: 60px;
     right: 10px;
   }
-}
+} */

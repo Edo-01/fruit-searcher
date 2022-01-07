@@ -76,7 +76,7 @@
   color: #fff;
 }
 /*TABLET*/
-@media only screen and (max-width: 969px) and (min-width: 720px) {
+/* @media only screen and (max-width: 969px) and (min-width: 720px) {
   .container-prodotto {
     padding: 0px 10% 120px;
     margin-top: 40px;
@@ -89,9 +89,9 @@
   .container-error p {
     font-size: 20px;
   }
-}
+} */
 /*MOB*/
-@media only screen and (max-width: 719px) {
+/* @media only screen and (max-width: 719px) {
   .container-prodotto {
     padding: 0px 2% 120px;
     margin-top: 40px;
@@ -138,4 +138,4 @@
   .container-error p {
     font-size: 18px;
   }
-}
+} */
