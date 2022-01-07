@@ -75,7 +75,7 @@ let imgBottnPreferitiMob = bottonPreferitiMob.children[0];
 
  fetch('https://www.fruityvice.com/api/fruit/all', {
    headers: {
-     'Access-Control-Allow-Origin': 'https://edo-01.github.io/fruit-searcher/',
+     'Access-Control-Allow-Origin': 'https://www.fruityvice.com/api/fruit/all',
    }
  })
  .then(function(risposta) {
