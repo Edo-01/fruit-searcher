@@ -73,13 +73,7 @@ let imgBottonHomeMob = bottonHomeMob.children[0];
 let bottonPreferitiMob = document.querySelector('#button-preferiti-mob');
 let imgBottnPreferitiMob = bottonPreferitiMob.children[0];
 
- fetch('https://www.fruityvice.com/api/fruit/all', {
-     origin: "https://edo-01.github.io/fruit-searcher/",
-     'Access-Control-Allow-Origin': "https://edo-01.github.io/fruit-searcher/",
-     referrer: "no-referrer-when-downgrade",
-     mode: "cors",
-     credentials: "include"
- })
+ fetch('https://www.fruityvice.com/api/fruit/all')
  .then(function(risposta) {
    return risposta.json();
  })
