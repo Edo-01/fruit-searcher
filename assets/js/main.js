@@ -74,6 +74,7 @@ let bottonPreferitiMob = document.querySelector('#button-preferiti-mob');
 let imgBottnPreferitiMob = bottonPreferitiMob.children[0];
 
  fetch('https://www.fruityvice.com/api/fruit/all', {
+     origin: "https://edo-01.github.io/fruit-searcher/",
      mode: "cors",
      credentials: "include"
  })
