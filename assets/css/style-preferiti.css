@@ -60,16 +60,16 @@
 .card-carosel h2 {
 }
 /*TABLET*/
-/* @media only screen and (max-width: 969px) and (min-width: 720px) {
+@media only screen and (max-width: 969px) and (min-width: 720px) {
   .title {
     padding: 50px 0px 50px 4%;
   }
   .container-slider-carosel {
     margin: 20px 0px 50px 4%;
   }
-} */
+}
 /*MOB*/
-/* @media only screen and (max-width: 719px) {
+@media only screen and (max-width: 719px) {
   ::-webkit-scrollbar {
     background-color:  #E5E5E5;
     width: 0px;
@@ -86,4 +86,4 @@
   }
   .carosello {
     overflow: scroll;
-} */
+}
