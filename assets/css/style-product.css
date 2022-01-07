@@ -1,0 +1,141 @@
+/*css prodotto*/
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.menu-mob > a:first-of-type {
+  color: #505050;
+}
+.container-prodotto {
+  padding: 0px 25% 40px;
+  margin-top: 40px;
+}
+.container-back {
+  background-color: #00AD3B12;
+  border-radius: 30px;
+  display: flex;
+}
+.col-1-prodotto{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.col-2-prodotto {
+ width: 60%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.header-prodotto {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-top: 13px;
+}
+.header-prodotto img {
+ padding-bottom: 9px;
+}
+.header-prodotto h2 {
+  font-size: 40px;
+}
+.col-2-prodotto h3 {
+ padding:0px 6% 20px;;
+}
+.list-background {
+  padding:15px 3% 30px;
+  margin: 0px 20px;
+  border-radius: 20px;
+  background-color: #00AD3B85;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.20);
+}
+.list-background ul {
+  list-style-type: none;
+}
+.list-background ul li {
+  font-weight: 600;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding: 7px 0px 5px 25px;
+}
+.container-error {
+  position: absolute;
+  top: 50vh;
+  left: 35vw;
+  padding:20px 3% 20px;
+  margin: 0px auto;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #00AD3B99;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.20);
+}
+.container-error p {
+  font-weight: 500;
+  font-size: 23px;
+  text-align: center;
+  color: #fff;
+}
+/*TABLET*/
+@media only screen and (max-width: 969px) and (min-width: 720px) {
+  .container-prodotto {
+    padding: 0px 10% 120px;
+    margin-top: 40px;
+  }
+  .container-error {
+    top: 60vh;
+    left: 25vw;
+    background-color: #00AD3B;
+  }
+  .container-error p {
+    font-size: 20px;
+  }
+}
+/*MOB*/
+@media only screen and (max-width: 719px) {
+  .container-prodotto {
+    padding: 0px 2% 120px;
+    margin-top: 40px;
+  }
+  .header-prodotto h2 {
+    font-size: 33px;
+  }
+  .col-2-prodotto h3 {
+   padding:15px 6% 10px;;
+  }
+  .header-prodotto img {
+   padding-bottom: 3px;
+  }
+  .header-prodotto {
+    padding: 8px 15px 0px;
+    justify-content: space-between;
+  }
+  .list-background {
+    padding:12px 3% 27px;
+    margin: 0px 10px 20px 10px;
+  }
+  .list-background ul li {
+    font-weight: 600;
+    padding: 7px 0px 5px 12px;
+  }
+  .container-back {
+    background-color: #00AD3B12;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .col-1-prodotto{
+    width: 100%;
+  }
+  .col-2-prodotto {
+   width: 100%;
+  }
+  .container-error {
+    width: 90%;
+    top: 70vh;
+    left: 5%;
+    background-color: #00AD3B;
+  }
+  .container-error p {
+    font-size: 18px;
+  }
+}

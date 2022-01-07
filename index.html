@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0">
+    <title>Fruit Searcher</title>
+    <link href="assets/img/fav.png" rel="icon">
+    <link href="assets/css/style-global.css" rel="stylesheet">
+    <link href="assets/css/style-home.css" rel="stylesheet">
+    <link href="assets/css/style-product.css" rel="stylesheet">
+    <link href="assets/css/style-preferiti.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="menu-desk">
+        <div class="nav-desk">
+          <a href="#">
+          <div id="button-home" class="button-nav bottone">
+            <div class="button-icon">
+              <img src="assets/img/icon-home-w.png">
+              <p>Home</p>
+            </div>
+          </div>
+          </a>
+          <a href="#">
+          <div id="button-preferiti" class="button-nav bottone">
+            <div class="button-icon">
+              <img src="assets/img/icon-prefer-w.png">
+              <p>Preferiti</p>
+            </div>
+          </div>
+          </a>
+          <a href="#">
+          <div id="button-ligth" class="button-nav bottone">
+            <div class="button-icon">
+              <img src="assets/img/icon-ligth-w.png">
+              <p>Ligth</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <img class="img-menu" src="assets/img/frutti-menu.svg" width="65%">
+      </div>
+      <div class="menu-mob">
+        <a href="#">
+          <div id="botton-home-mob" class="button-nav-mob">
+            <img src="assets/img/icon-home-mob-green.png">
+            <p>Home</p>
+          </div>
+        </a>
+        <a href="#">
+          <div id="button-preferiti-mob" class="button-nav-mob">
+            <img src="assets/img/icon-prefer-mob.png">
+            <p>Preferiti</p>
+          </div>
+        </a>
+        <a href="#">
+          <div id="button-ligth-mob" class="button-nav-mob">
+            <img src="assets/img/icon-ligth-mob.png">
+            <p>Ligth</p>
+          </div>
+        </a>
+      </div>
+    </header>
+    <aside>
+      <div class="scroll-up bottone">
+        <img src="assets/img/arrow.png" width="85%">
+      </div>
+    </aside>
+    <section>
+      <div class="background-mob">
+        <div class="container-1">
+          <img src="assets/img/logo-frutta.svg">
+          <div class="box-2">
+            <h1>fruit-searcher</h1>
+            <p class="p-desk">Trova la tua frutta e <br>scopri tutti i valori nutrizionali.</p>
+          </div>
+        </div>
+        <p class="p-mobile">Trova la tua frutta e <br>scopri tutti i valori nutrizionali.</p>
+        <div class="container-2">
+          <div class="search">
+            <input id="input-ricerca" type="text" placeholder="Ricerca frutto..." value="">
+            <img class="img-search" src="assets/img/icon-search.png">
+            <div class="button-ricerca bottone">
+              <p>Ricerca</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-grid">
+    <div class="grid-dimension">
+      <div class="grid-fruit-main">
+      </div>
+    </div>
+    </section>
+    <section class="section-product" hidden>
+      <div class="container-prodotto">
+        <div class="container-back" >
+          <div class="col-1-prodotto">
+            <div class="header-prodotto">
+            </div>
+          </div>
+          <div class="col-2-prodotto">
+            <div class="list-background">
+              <ul id="valori">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="frutti-preferiti" hidden>
+      <div class="title">
+        <h2>Preferiti<h2>
+      </div>
+      <div class="container-slider-carosel">
+        <div class="container-freccie">
+          <div class="scrolla-sx bottone"><</div>
+          <div class="scrolla-dx bottone">></div>
+        </div>
+        <div class="carosello">
+        </div>
+      </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/traduction.js"></script>
+    <script src="assets/js/animation.js"></script>
+  </body>
+</html>
