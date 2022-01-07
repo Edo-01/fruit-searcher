@@ -73,7 +73,10 @@ let imgBottonHomeMob = bottonHomeMob.children[0];
 let bottonPreferitiMob = document.querySelector('#button-preferiti-mob');
 let imgBottnPreferitiMob = bottonPreferitiMob.children[0];
 
- fetch('https://www.fruityvice.com/api/fruit/all')
+ fetch('https://www.fruityvice.com/api/fruit/all', {
+     mode: "cors",
+     credentials: "include"
+ })
  .then(function(risposta) {
    return risposta.json();
  })
