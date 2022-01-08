@@ -82,7 +82,7 @@ let imgBottnPreferitiMob = bottonPreferitiMob.children[0];
    }
  })
  .then(function(risposta) {
-   console.log(risposta);
+   console.log(risposta.body);
    return risposta.json();
  })
  .then(function(frutta) {
