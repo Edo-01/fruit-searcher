@@ -73,10 +73,10 @@ let imgBottonHomeMob = bottonHomeMob.children[0];
 let bottonPreferitiMob = document.querySelector('#button-preferiti-mob');
 let imgBottnPreferitiMob = bottonPreferitiMob.children[0];
 
- fetch('/cors-proxy/https://www.fruityvice.com/api/fruit/all', {
+ fetch('https://www.fruityvice.com/api/fruit/all', {
    // mode: "no-cors",
    headers: {
-     // "Access-Control-Allow-Origin": "https://fruit-searcher.netlify.app/",
+     // "Access-Control-Allow-Origin": "https://fruit-searcher.netlify.app/"
      // "Access-Control-Allow-Credentials": 'true'
      // "Referrer-Policy" : "no-referrer-when-downgrade"
    }
