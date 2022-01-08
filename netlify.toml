@@ -10,9 +10,8 @@
   # for = "/*"
   #   [headers.values]
   #   Access-Control-Allow-Origin = "*"
-    [[redirects]]
-      from = "/cors-proxy/*"
-      to = "/index.html"
-      # to = "https://www.fruityvice.com/api/fruit/all/:splat"
-      status = 200
-      force = true
+[[redirects]]
+  from = "/*"
+  to = "https://www.google.com/:splat"
+  status = 200
+  force = true
