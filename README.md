@@ -12,13 +12,13 @@
 ## Informazioni sul progetto
 
 
-Fruit-searcher, disponibile cilccando [qui](https://edo-01.github.io/fruit-searcher/), è un semplice portale che ti consente di visualizzare informazioni relative ai frutti.
+Fruit-searcher, disponibile cilccando [qui](https://fruit-searcher.netlify.app/), è un semplice portale che ti consente di visualizzare informazioni relative ai frutti.
 
 ## Iniziare
 
 
 Fruit-searcher è un' applicazione web e non necessita di alcuna installazione.
-Cilccando [qui](https://edo-01.github.io/fruit-searcher/) potrai iniziare ad utilizzarla immadiatamente.
+Cilccando [qui](https://fruit-searcher.netlify.app/) potrai iniziare ad utilizzarla immadiatamente.
 
 
 ## Funzionalità
