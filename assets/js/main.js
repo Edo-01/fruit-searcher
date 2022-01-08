@@ -138,12 +138,12 @@ bottonHomeMob.addEventListener('click', function() {
 })
 buttonPreferiti.addEventListener('click', function() {
   sectionGrid.style.display = 'none';
-  fruttiPreferiti.hidden =  (carosello.children.length == 0)?  true: false;
+  fruttiPreferiti.hidden =  (carosello.children.length == 0)? true: false;
   sectionProduct.hidden = true;
 })
 bottonPreferitiMob.addEventListener('click', function() {
   sectionGrid.style.display = 'none';
-  fruttiPreferiti.hidden =  (carosello.children.length == 0)?  true: false;
+  fruttiPreferiti.hidden =  (carosello.children.length == 0)? true: false;
   sectionProduct.hidden = true;
   imgBottonHomeMob.src = 'assets/img/icon-home-mob.png';
   imgBottnPreferitiMob.src = 'assets/img/prefer-green-full.png';
@@ -190,6 +190,6 @@ inputRicerca.addEventListener('focus', function() {
     inputRicerca.value = '';
   }
 })
-document.body.addEventListener('click',function() {
+document.body.addEventListener('click', function() {
   avvisoErrore.remove();
 })
