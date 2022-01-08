@@ -74,9 +74,9 @@ let bottonPreferitiMob = document.querySelector('#button-preferiti-mob');
 let imgBottnPreferitiMob = bottonPreferitiMob.children[0];
 
  fetch('https://www.fruityvice.com/api/fruit/all', {
-   // mode: "no-cors",
+   mode: "no-cors",
    headers: {
-     "Access-Control-Allow-Origin": "*"
+     // "Access-Control-Allow-Origin": "*"
      // "Access-Control-Allow-Credentials": 'true'
      // "Referrer-Policy" : "no-referrer-when-downgrade"
    }
