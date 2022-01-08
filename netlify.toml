@@ -12,6 +12,7 @@
   #   Access-Control-Allow-Origin = "*"
     [[redirects]]
       from = "/cors-proxy/*"
-      to = "https://www.fruityvice.com/api/fruit/all/:splat"
+      to = "/index.html/:splat"
+      # to = "https://www.fruityvice.com/api/fruit/all/:splat"
       status = 200
       force = true
