@@ -74,7 +74,7 @@ let bottonPreferitiMob = document.querySelector('#button-preferiti-mob');
 let imgBottnPreferitiMob = bottonPreferitiMob.children[0];
 
  fetch('https://www.fruityvice.com/api/fruit/all', {
-   // mode: "no-cors",
+   mode: "no-cors",
    headers: {
      // "Access-Control-Allow-Origin": "https://fruit-searcher.netlify.app/"
      // "Access-Control-Allow-Credentials": 'true'
