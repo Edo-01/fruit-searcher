@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/api/*"  #miodominio/api/*(* per tutto)
-  to = "https://www.fruityvice.com/api/fruit/all" 
+  to = "https://www.fruityvice.com/api/fruit/:splat" 
   status = 200
   force = true

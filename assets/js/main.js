@@ -75,7 +75,6 @@ let imgBottnPreferitiMob = bottonPreferitiMob.children[0];
 
  fetch('/api/https://www.fruityvice.com/api/fruit/all') //--------------------------
  .then(function(risposta) {
-   console.log(risposta);
    return risposta.json();
  })
  .then(function(frutta) {
