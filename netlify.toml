@@ -11,7 +11,7 @@
   #   [headers.values]
   #   Access-Control-Allow-Origin = "*"
 [[redirects]]
-  from = "/*"
-  to = "https://www.google.com/:splat"
+  from = "/cors-proxy/*"
+  to = "https://www.fruityvice.com/api/fruit/all/:splat"
   status = 200
   force = true
