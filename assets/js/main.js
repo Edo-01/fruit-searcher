@@ -73,14 +73,7 @@ let imgBottonHomeMob = bottonHomeMob.children[0];
 let bottonPreferitiMob = document.querySelector('#button-preferiti-mob');
 let imgBottnPreferitiMob = bottonPreferitiMob.children[0];
 
- fetch('/api/https://www.fruityvice.com/api/fruit/all', {
-   // mode: "no-cors",
-   headers: {
-     // "Access-Control-Allow-Origin": "*"
-     // "Access-Control-Allow-Credentials": 'true'
-     // "Referrer-Policy" : "no-referrer-when-downgrade"
-   }
- })
+ fetch('/api/https://www.fruityvice.com/api/fruit/all') //--------------------------
  .then(function(risposta) {
    console.log(risposta);
    return risposta.json();
