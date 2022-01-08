@@ -73,8 +73,8 @@ let imgBottonHomeMob = bottonHomeMob.children[0];
 let bottonPreferitiMob = document.querySelector('#button-preferiti-mob');
 let imgBottnPreferitiMob = bottonPreferitiMob.children[0];
 
- fetch('https://www.fruityvice.com/api/fruit/all', {
-   mode: "no-cors",
+ fetch('/api/https://www.fruityvice.com/api/fruit/all', {
+   // mode: "no-cors",
    headers: {
      // "Access-Control-Allow-Origin": "*"
      // "Access-Control-Allow-Credentials": 'true'
@@ -82,7 +82,7 @@ let imgBottnPreferitiMob = bottonPreferitiMob.children[0];
    }
  })
  .then(function(risposta) {
-   console.log(risposta.body);
+   console.log(risposta);
    return risposta.json();
  })
  .then(function(frutta) {
