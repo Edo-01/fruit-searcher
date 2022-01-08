@@ -165,7 +165,7 @@ function buttonSearch() {
     return;
   }
 
-  fetch(`/api/https://www.fruityvice.com/api/fruit/${traductionInput(inputRicerca.value)}`)
+  fetch(`/api/api/fruit/${traductionInput(inputRicerca.value)}`)
   .then(function(risposta) {
     return risposta.json();
   })
