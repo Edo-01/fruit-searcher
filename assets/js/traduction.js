@@ -5,7 +5,7 @@
 function traductionInput(valore) {
   if(valore == 'mela' || valore == 'mele' || valore == 'Mela' || valore == 'Mele' || valore == 'MELA' || valore == 'MELE') {
     return 'Apple';
-  } else if(valore == 'pesca' || valore == 'pesche' || valore == 'Pesca' || valore == 'Pesche' || valore == 'PESCA' || valore == 'PESCHE') {
+  } else if(valore == 'albicocca' || valore == 'albicocche' || valore == 'Albicocca' || valore == 'Albicocche' || valore == 'ALBICOCCA' || valore == 'ALBICOCCHE') {
     return 'Apricot';
   } else if(valore == 'mora' || valore == 'more' || valore == 'Mora' || valore == 'More' || valore == 'MORA' || valore == 'MORE') {
     return 'Blackberry';
