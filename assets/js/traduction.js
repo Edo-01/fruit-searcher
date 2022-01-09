@@ -58,7 +58,7 @@ function traductionPrint(valore) {
   if(valore == 'Apple') {
     return 'Mela';
   } else if (valore == 'Apricot') {
-    return 'Pesca';
+    return 'Albicocca';
   } else if (valore == 'Banana') {
     return 'Banana';
   } else if (valore == 'Blackberry') {
